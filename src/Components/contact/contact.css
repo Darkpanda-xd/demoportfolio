@@ -1,0 +1,58 @@
+.contact-form {
+	padding: 0 3rem;
+	display: flex;
+	height: 80vh;
+	margin-top: 4rem;
+}
+.c-right {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex: 1;
+}
+.c-right > form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+.c-right .user {
+	width: 20rem;
+	height: 2rem;
+	padding: 0.3rem;
+	outline: none;
+	border: solid 2px var(--orange);
+	border-radius: 8px;
+}
+textarea {
+	height: 4rem !important;
+}
+.c-blur1 {
+	top: 1rem;
+	left: 8rem;
+}
+.valid {
+	position: relative;
+	top: -90%;
+	width: 20rem;
+	height: 2rem;
+	padding: 0.3em;
+	border-radius: 8px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	background: var(--orange);
+	color: #fff;
+	font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+.contact-form{
+	flex-direction: column;
+	height: 40rem;
+	
+}
+.c-right{
+	transform: scale(0.8);
+}
+}

@@ -1,0 +1,18 @@
+.floating-div{
+    justify-content: space-around;
+    background: white;
+    box-shadow: var( --boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0px 28px 0 0;
+    display: flex;
+}
+.floating-div>img{
+ transform: scale(0.4);
+}
+.floating-div>span{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
